@@ -1,111 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <title>Maryam Muska's Portfolio</title>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="imgs/logo.png">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j.BmwXdxFgVK/Kvc=" crossorigin="anonymous"
+    />
 
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">Service</a></li>
-                <li class="nav__item"><a href="#about-me" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#my-work" class="nav__link">My Work</a></li>
-                <li class="nav__item"><a href="#contact-me" class="nav__link">Contact Me</a></li>
-            </ul>
-        </nav>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&dusokat=swap" rel="styelsheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Maryam Muska's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about-me" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#my-work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact-me" class="nav__link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-<!-- Introduction -->
+    <!-- Introduction -->
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi! I am <strong>Maryam Muska</strong>
-        </h1>
-        <p class ="section__subtitle section__subtitle--intro">Front-end and Back-end dev</p>
-        <img src="imgs/mypicture.jpeg" alt="a picture of maryam muska smiling">
+      <h1 class="section__title section__title--intro">
+        Hi! My name is <strong>Maryam Muska</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+       Front and Back-end dev
+      </p>
+      <img src="imgs/mypicture.jpeg" alt="a picture of maryam muska smiling" class="intro__img"/>
     </section>
 
-<!-- My Services -->
+    <!-- My Services -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services"> What I do</h2>
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
         <div class="service">
-            <h3>Front-end + Back-end Development</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur voluptate inventore eos cupiditate esse modi eaque quod perferendis rem! Sint eos deserunt odit? Consequatur deleniti porro beatae facere culpa!</p>
-        </div>
+        <h3>Builder: Develop + Design</h3>
+        <p>I'm a software engineer specializing in building (and designing) exceptional digital experiences. My interest in web development and software engineering started back in 2018 when I decided to create a fashion website for my own clothing, turns out a little project to clean out my closet turned into a life long career!</p>
+      </div>
 
-        <a href="#work" class="btn">My Work</a>
+      <div class="service">
+        <h3>Thinker: Problem Solver</h3>
+        <p>Being first gen and absolutely curious human allowed me to constantly search for projects and problems to solve and grow my skills. Throughout my experience, I have engineered modern applications with HTML, CSS, Javascript, mySql, NoSql, react, Github, MongoDB, Express.js, Node, and many more.  </p>
+      </div>
+      </div>
+
+      <a href="#work" class="btn">See My Work</a>
     </section>
-<!--About Me-->
+    <!--About Me-->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who am I?</h2>
-        <p class="section__subtitle section__subtitle--about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat corporis ab perferendis, amet voluptatibus beatae, aspernatur fugit vitae asperiores non nesciunt quis deserunt necessitatibus. Sunt quaerat inventore possimus. Dolore, quo!</p>
-        
-        <div class="about-me__body">
-            <p></p>
-        </div>
+      <h2 class="section__title section__title--about">Who am I?</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Web & iOS Developer based out of Los Angeles.
+      </p>
 
-       <img src="imgs/IMG_1597 2.jpeg" alt="maryam with dog">
+      <div class="about-me__body">
+        <p>I am a web developer specialized in full stack development. I graduated
+            from UCLA with a BA in Political Science and I received my Full Stack
+            Development Certificate from University of California- Berkeley
+            Extension. I am a strategic thinker with a hunger for solving problems.
+            I have always been interested in programming at a young age and want to switch over to a
+            career that will help my professional and personal growth. I am
+            interested in outdoor activities, reading fiction, and design.</p>
+      </div>
+
+      <img src="imgs/IMG_1597 2.jpeg" alt="maryam with dog" class="about-me__img" />
     </section>
-<!-- My work -->
+    <!-- My work -->
     <section class="my-work" id="work">
-        <h2 class="section__title">My work</h2>
-        <p class="section__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ducimus neque illo ad nostrum consectetur, quasi quaerat dolores tenetur saepe magnam impedit consequuntur, error ipsam, dolor dolore? Voluptas, amet accusantium.</p>
-        <!-- Project 1 -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <!-- <img src="" -->
-            </a>
-         <!-- Project 2 -->
-         <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <!-- <img src="" -->
-            </a>
-
-        <!-- Project 3 -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <!-- <img src="" -->
-            </a>
-
-        <!-- Project 4 -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <!-- <img src="" -->
-            </a>
-
-        <!-- Project 5 -->
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <!-- <img src="" -->
-            </a>
-
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle">
+        Since I dipped my toes in the world of coding, I have worked nonstop to learn, grow my skills, and create projects. What excites me most about being a Software Engineer is being able to design and create things that have purpose and solve real problems. Leaning into front and back end, using javascript, react, nosql, and more to find the right problems to solve, delivering that value as quickly as possible, learning from it and then iterating and improving that value over time is the key to user friendly programs. Below are a couple of projects I have authored alone and some in which I have collaborated with an incredible team to create.
+      </p>
+      <!-- Project 1 -->
+      <div class="portfolio">
+        <div class="square" id="project-1">
+          <a href="https://johnaslani.github.io/Artist-Library/">
+            Artist Library App<span class="link"></span>
+            <!-- <img src="" -->
+          </a>
         </div>
-
-        <!-- Contact Me  -->
-    
-    <section class="contact-me" id="contact">
-        
-         <h2 class="section__title">Contact Me</h2> 
-         <p class="section__subtitle"></p>
+        <!-- Project 2 -->
+        <div class="portfolio">
+          <div class="square" id="project-2">
+            <a href="https://restreviews-app.herokuapp.com/">
+                Restaurant Review App<span class="link"></span>   
+              <!-- <img src="" -->
+            </a>
+          </div>
        
-         <div class="links">
-        <a href = "mailto: muskamaryam@gmail.com">Email</a> <br>
-        <br>
-        <a href="https://www.linkedin.com/in/maryam-muska/">Linkedin</a>
+        </div>
+      </div>
     </section>
 
+    <!-- Contact Me  -->
+
+    <section class="contact-me" id="contact">
+      <h2 class="section__title">Get in Touch!</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="links">
+        <a href="mailto: muskamaryam@gmail.com">Email</a> <br />
+        <br />
+        <a href="https://www.linkedin.com/in/maryam-muska/">Linkedin</a>
+      </div>
     </section>
-</body>
+  </body>
 </html>

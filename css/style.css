@@ -281,3 +281,28 @@ nav a:hover {
     color: var(--clr-light);
     text-align: center;
 }
+
+.section__title--work {
+    color: var(--clr-accent);
+    position: relative;
+}
+
+.section__title--work::after {
+    content: '';
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.5;
+}
+
+.section__subtitle--work {
+    width: 50%;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+.portfolio {
+    justify-content: flex-end;
+}

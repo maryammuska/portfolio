@@ -13,6 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
       integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j.BmwXdxFgVK/Kvc=" crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/3bcd688803.js" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&dusokat=swap" rel="styelsheet">
 
@@ -21,27 +22,25 @@
   </head>
   <body>
     <header>
+      <div class="logo">
+        <img src="./imgs/logo.png" alt="maryam muska logo">
+      </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
       </button>
-
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item">
-            <a href="#services" class="nav__link">Service</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about-me" class="nav__link">About Me</a>
-          </li>
-          <li class="nav__item">
-            <a href="#my-work" class="nav__link">My Work</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact-me" class="nav__link">Contact Me</a>
-          </li>
+          <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
         </ul>
-      </nav>
+      </nav> 
+      
+      <style>
+        a { color: pink; } 
+      </style>
     </header>
 
     <!-- Introduction -->
@@ -95,44 +94,67 @@
 
     <!-- My work -->
     <section class="my-work" id="work">
-      <h2 class="section__title--work">My work</h2>
-      <div class="section__subtitle--work">
-      <p>
-        Since I dipped my toes in the world of coding, I have worked nonstop to learn, grow my skills, and create projects. What excites me most about being a Software Engineer is being able to design and create things that have purpose and solve real problems. Leaning into front and back end, using javascript, react, nosql, and more to find the right problems to solve, delivering that value as quickly as possible, learning from it and then iterating and improving that value over time is the key to user friendly programs. Below are a couple of projects I have authored alone and some in which I have collaborated with an incredible team to create.
-      </p>
-      <!-- Project 1 -->
+      <h2 class="section__title section__title--work">My Work</h2>
       <div class="portfolio">
-        <div class="square" id="project-1">
-          <a href="https://johnaslani.github.io/Artist-Library/">
-            Artist Library App<span class="link"></span>
-            <!-- <img src="" -->
-          </a>
-        </div>
-        <!-- Project 2 -->
-        <div class="portfolio">
-          <div class="square" id="project-2">
-            <a href="https://restreviews-app.herokuapp.com/">
-                Restaurant Review App<span class="link"></span>   
-              <!-- <img src="" -->
-            </a>
-          </div>
-       
-        </div>
+        <div class="square">
+          <p>
+            Since I dipped my toes in the world of coding, I have worked nonstop to learn, grow my skills, and create projects. What excites me most about being a Software Engineer is being able to design and create things that have purpose and solve real problems. Leaning into front and back end, using javascript, react, nosql, and more to find the right problems to solve, delivering that value as quickly as possible, learning from it and then iterating and improving that value over time is the key to user friendly programs. Here are a couple of projects I have authored alone and some in which I have collaborated with an incredible team to create.
+          </p>
       </div>
-    </div>
-    </section>
+        
+      <ul class="square">
+        <li>
+            <a href="https://johnaslani.github.io/Artist-Library/" class="portfolio__item">Artist Library </a>
+        </li>
+        <li>
+           <a href="https://restreviews-app.herokuapp.com/"> Restaurant Reviews </a>
+        </li>
+        <li>
+          <a href="https://maryammuska.github.io/team-profile-generator/"> Team Profile Generator</a>
+        </li>
+        <li>
+          <a href="https://maryammuska.github.io/weather-dashboard/"> Weather Dashboard</a>
+        </li>
+        <li>
+          <a href="https://maryammuska.github.io/workday-scheduler/"> Workday Scheduler </a>
+        </li>
+        <li>
+          <a href="https://maryammuska.github.io/quiz/"> Coding Quiz</a>
+        </li>
+          
+          <!-- <div>
+            <img src="./imgs/Artist Library.png" alt="github artist library page" width="100px" height="100px"/>  
+            <img src="./imgs/Restuarant Reviews.png" alt="github restuarant reviews" width="100px" height="100px" />  
+        </div> -->
+        
+      </ul>
+      </div>
+      </section>
 
     <!-- Contact Me  -->
 
-    <section class="contact-me" id="contact">
-      <h2 class="section__title">Get in Touch!</h2>
-      <p class="section__subtitle"></p>
+    <footer class="contact-me" id="contact">
+      <h2 class="section__title">Get in Touch!</h2>   
+        <div class="footer__link"> maryammuska@yahoo.com
+        </div> 
+        <ul class="social-list">
+          <li  class="social-list__link">
+            <a href="mailto: maryammuska@yahoo.com">
+              <i class="fa-solid fa-envelope"></i>
+          </li>
+            <li class="social-list__link">
+              <a href="https://www.linkedin.com/in/maryam-muska/">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="social-list__link">
+              <a href="https://github.com/maryammuska"> 
+                <i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+    </footer>
 
-      <div class="links">
-        <a href="mailto: muskamaryam@gmail.com">Email</a> <br />
-        <br />
-        <a href="https://www.linkedin.com/in/maryam-muska/">Linkedin</a>
-      </div>
-    </section>
+    <script src="./js/index.js"></script>
+
   </body>
 </html>
